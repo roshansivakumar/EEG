@@ -206,7 +206,7 @@ while(cap.isOpened()):
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-print(count)
+#print(count)
 print(cXmax, cXmin)
 print(cYmax, cYmin)
 print(xDeviation, yDeviation, bothDeviation)
