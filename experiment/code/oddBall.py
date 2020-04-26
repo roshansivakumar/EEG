@@ -1,7 +1,7 @@
 from psychopy import visual, event, core,gui ,data,  logging , sound
 from numpy import sin, pi
 
-# window
+# Window
 window = visual.Window(
     size= (1920, 1080), fullscr=True, screen=0,
     winype='pyglet', allowGUI=False, allowStencil=False,
