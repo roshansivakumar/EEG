@@ -92,8 +92,8 @@ while True:
 
         frame_counter = 0
 
-        cv2.putText(frame, "Blinks: {}".format(blinks), (10,30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,0,255), 2)
-        cv2.putText(frame, "EAR: {.2f}".format(ear), (300, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,0,255), 2)
+        cv2.putText(frame, "Blinks : {}".format(blinks), (10,30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,0,255), 2)
+        cv2.putText(frame, "EAR : {.2f}".format(ear), (300, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,0,255), 2)
 
     cv2.imshow("Frame", frame)
 
